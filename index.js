@@ -1,9 +1,10 @@
 function display(ev) {
 	ev.preventDefault()
-  	const name = document.querySelector('#input1')
-  	const room = document.querySelector ('#input2')
+    const form = ev.target
+  	const name = form.personName.value
+  	const room = form.personRoom.value
     const answer = document.querySelector('#result')
-    answer.textContent= name.value + ' lives in University Hall room number ' +room.value
+    answer.textContent= name + ' lives in University Hall room number ' +room
 }
 
 
