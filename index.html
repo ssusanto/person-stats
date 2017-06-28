@@ -6,6 +6,8 @@
     <title>Person Stats</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.0/css/foundation.min.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <h1>Person Stats</h1>
@@ -19,21 +21,26 @@
 
 <p>
     <label for="personRoom"> Room Number </label>
-    <input type="text" name="personRoom" id="input2">
+    <input type="number" name="personRoom" id="input2">
 </p>
 
+ <p>
+    <label for="favoriteColor"> Favorite color</label>
+    <input type="color" name="favoriteColor" id="input3">
+</p>
 
-<button type="submit"> Click Here </button>
+<button type="submit"> Click Here </button> 
 
 
-	 </form>
+</form>
 
-  <div id="result"> </div>
+<div id="result"> </div>
 
 
 
 
     
 <script src="index.js"> </script>
-  </body>
+
+</body>
 </html>
